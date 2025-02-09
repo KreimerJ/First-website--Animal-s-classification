@@ -1,0 +1,169 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(210, 210, 210);
+    background-color: rgb(29, 29, 29);
+
+}
+p
+{
+    color:rgb(210, 210, 210);
+    font-style: italic;
+}
+
+header {
+    background-color: rgb(24, 24, 24);
+    color: rgb(210, 210, 210);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(181, 179, 179);
+    border-radius: 10px;
+}
+
+header ul {
+    margin-top: 5px;
+}
+
+h1 {
+    background-color: rgb(42, 77, 105);
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+    background-color: slategray;
+}
+
+h3 {
+    border: 1px;
+    background-color: rgb(73, 73, 73);
+    padding: 5px;
+    border-style: ridge;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h4 {
+
+    text-align: center;
+    font-size: 1.5em;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+::marker {
+    color: rgb(160, 158, 10);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.Classification-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+ul {
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+a {
+    margin: 0;
+    color: rgb(151, 204, 228);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+section {
+    background-color: rgb(24, 24, 24);
+    color: rgb(210, 210, 210);
+    margin: 10px;
+    border: 2px solid rgb(181, 179, 179);
+    border-radius: 10px;
+    flex: 1 1;
+    flex-direction: column;
+
+    padding-right: 7px;
+
+
+}
+
+img {
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+
+
+}
+
+.card {
+
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    padding-left: 50px;
+    position: relative;
+
+}
+
+
+.overlay {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+
+
+}
+
+figure
+{
+    text-align: center;
+}
+
+footer
+{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(181, 179, 179);
+    background-color: rgb(24, 24, 24);
+    color: rgb(210, 210, 210);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h5 
+{
+ font-size: 0.9em;
+}
+
+h6
+{
+    font-size: 0.8em;
+}
